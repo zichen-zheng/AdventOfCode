@@ -59,7 +59,7 @@ bool is_in(int a, int b) {
       return false;
     }
     // (xb, ya), (xb, yb)
-    if (y1 == y2 && y1 > ya && y1 < yb && xb >=x1 && xb <= x2) {
+    if (y1 == y2 && y1 > ya && y1 < yb && xb > x1 && xb <= x2) {
       return false;
     }
   }
